@@ -69,8 +69,8 @@ terminal 1:
 terminal 2:
     $ gdb
     (gdb) file program.elf
-    (gdb) target remote localhost:1234        <-- connect to the serer that runs the trace
-    (gdb) load program.elf                    <-- load program m=binary in remote memory
+    (gdb) target remote localhost:1234        <-- connect to the serer that runs the trace, see above
+    (gdb) load program.elf                    <-- load program binary in remote memory
     (gdb) b main   <-- break at the start of main
     (gdb) c        <-- get into main
     (gdb) n        <-- next line
