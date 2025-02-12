@@ -33,7 +33,7 @@ state around a specific execution point in either direction in time.
 
 A couple of trace converters are provided as examples:
 ```
-    trace_utils +---  spike_trace.py
+    trace_utils +--- spike_trace.py
                 \--- sifive_rtl_trace.py
 ```
 Each one converts from respective format to an internal version as a list of dictionary entries.
